@@ -24,8 +24,7 @@ public class Booking {
     private long checkOutDateTime;
     private String bookingType;
     private int person;
-    private String Fikri;
-    private String Aniq;
+
 
     //private int roomsFare;
     
