@@ -159,7 +159,6 @@ public class PaymentPanel extends javax.swing.JDialog {
             result = bookingdB.getABooking(bookingId);
             // bookingdB.flushAll();
             try {
-                int duration = 1;
                 int checkIn = result.getInt("check_in");
                 int checkOut = result.getInt("check_out");
                 String roomName = result.getString("booking_room");
