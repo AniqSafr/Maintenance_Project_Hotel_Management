@@ -37,7 +37,8 @@ public class BookingTableModel extends AbstractTableModel {
         localDate = new Date();
         SimpleDateFormat ft = new SimpleDateFormat("d");
         // -1 , because date starts with 0
-        int today = ( Integer.parseInt(ft.format(localDate))-1 )%getMonthLimit(localDate);
+        int today = ( Integer.parseInt(ft.format(localDate))-1 );
+        today = today%getMonthLimit(localDate);
         //System.out.println(today+", today");
         columnNames = new String[11];
         columnNames[0] = "#";
