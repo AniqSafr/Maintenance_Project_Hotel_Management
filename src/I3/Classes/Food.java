@@ -1,4 +1,4 @@
-package I3.classes;
+package i3.classes;
 
 /**
  *

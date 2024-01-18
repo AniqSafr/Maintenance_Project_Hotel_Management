@@ -1,4 +1,4 @@
-package I3.DatabaseOperation;
+package i3.DatabaseOperation;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

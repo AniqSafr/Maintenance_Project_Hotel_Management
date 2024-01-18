@@ -3,11 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package I3.UI;
+package i3.UI;
 
-import I3.Classes.UserInfo;
-import I3.DatabaseOperation.CustomerDb;
-import I3.DatabaseOperation.DatabaseOperation;
 import java.awt.Color;
 import java.awt.event.KeyEvent;
 import java.sql.ResultSet;
@@ -17,6 +14,11 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
+
+import i3.UI.CustomerPanel;
+import i3.DatabaseOperation.CustomerDb;
+import i3.DatabaseOperation.DatabaseOperation;
+import i3.classes.UserInfo;
 import net.proteanit.sql.DbUtils;
 
 /**

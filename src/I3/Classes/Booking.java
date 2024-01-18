@@ -1,12 +1,9 @@
-package I3.classes;
+package i3.classes;
 
 import java.util.ArrayList;
 
-import I3.Classes.Room;
-import I3.Classes.UserInfo;
-
-import I3.Classes.Room;
-import I3.Classes.UserInfo;
+import i3.classes.Room;
+import i3.classes.UserInfo;
 
 /**
  *

@@ -3,11 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package I3.UI;
+package i3.UI;
 
-import I3.Classes.Order;
-import I3.DatabaseOperation.BookingDb;
-import I3.DatabaseOperation.OrderDb;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.print.PrinterException;
@@ -25,6 +22,11 @@ import javax.swing.text.JTextComponent;
 import net.proteanit.sql.DbUtils;
 import org.jdesktop.swingx.autocomplete.AutoCompleteDecorator;
 import org.joda.time.Interval;
+
+import i3.UI.PaymentPanel;
+import i3.DatabaseOperation.BookingDb;
+import i3.DatabaseOperation.OrderDb;
+import i3.classes.Order;
 
 /**
  *

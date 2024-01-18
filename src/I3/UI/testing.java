@@ -3,14 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package I3.UI;
+package i3.UI;
 
-import I3.TableModel.BookingTableModel;
-import I3.TableModel.CustomCellRenderer;
 import java.awt.Color;
 import java.util.Date;
 import javax.swing.table.TableCellEditor;
 import org.joda.time.DateTime;
+
+import i3.UI.testing;
+import i3.TableModel.BookingTableModel;
+import i3.TableModel.CustomCellRenderer;
 
 /**
  *

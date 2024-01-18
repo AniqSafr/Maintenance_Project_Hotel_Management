@@ -1,4 +1,4 @@
-package I3.DatabaseOperation;
+package i3.DatabaseOperation;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,7 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
-import I3.classes.Order;
+import i3.DatabaseOperation.DataBaseConnection;
+import i3.classes.Order;
 
 /**
  *

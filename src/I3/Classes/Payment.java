@@ -1,12 +1,9 @@
-package I3.classes;
+package i3.classes;
 
 import java.util.ArrayList;
 
-import I3.classes.Booking;
-import I3.classes.ExtraOrders;
-
-import I3.classes.Booking;
-import I3.classes.ExtraOrders;
+import i3.classes.Booking;
+import i3.classes.ExtraOrders;
 
 /**
  *

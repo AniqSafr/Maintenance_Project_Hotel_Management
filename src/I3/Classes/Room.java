@@ -1,9 +1,6 @@
-package I3.classes;
+package i3.classes;
 
-import I3.classes.RoomFare;
-
-import I3.classes.RoomFare;
-
+import i3.classes.RoomFare;
 /**
  *
  * @author Faysal Ahmed

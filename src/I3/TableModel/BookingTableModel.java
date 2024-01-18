@@ -1,8 +1,5 @@
-package I3.TableModel;
+package i3.TableModel;
 
-import I3.DatabaseOperation.BookingDb;
-import I3.DatabaseOperation.DatabaseOperation;
-import I3.DatabaseOperation.RoomDb;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
@@ -12,6 +9,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.table.AbstractTableModel;
+
+import i3.DatabaseOperation.BookingDb;
+import i3.DatabaseOperation.DatabaseOperation;
+import i3.DatabaseOperation.RoomDb;
 
 /**
  *

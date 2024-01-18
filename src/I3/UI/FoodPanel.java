@@ -3,11 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package I3.UI;
+package i3.UI;
 
-import I3.DatabaseOperation.DatabaseOperation;
-import I3.Classes.Food;
-import I3.DatabaseOperation.FoodDb;
 import java.awt.Color;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
@@ -18,6 +15,11 @@ import javax.swing.text.JTextComponent;
 import net.proteanit.sql.DbUtils;
 import org.jdesktop.swingx.autocomplete.AutoCompleteDecorator;
 //import org.jdesktop.swingx.combobox.*;
+
+import i3.UI.FoodPanel;
+import i3.DatabaseOperation.DatabaseOperation;
+import i3.DatabaseOperation.FoodDb;
+import i3.classes.Food;
 
 
 

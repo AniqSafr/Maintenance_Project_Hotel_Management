@@ -1,14 +1,16 @@
-package I3.DatabaseOperation;
-import I3.Classes.Food;
-import I3.Classes.Item;
-import I3.Classes.Room;
-import I3.Classes.RoomFare;
-import I3.Classes.UserInfo;
+package i3.DatabaseOperation;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
+
+import i3.DatabaseOperation.DataBaseConnection;
+import i3.classes.Food;
+import i3.classes.Item;
+import i3.classes.Room;
+import i3.classes.RoomFare;
+import i3.classes.UserInfo;
 
 /**
  *

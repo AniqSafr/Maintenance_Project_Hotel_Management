@@ -1,8 +1,6 @@
-package I3.classes;
+package i3.classes;
 
-import I3.classes.Item;
-
-import I3.classes.Item;
+import i3.classes.Item;
 
 /**
  *

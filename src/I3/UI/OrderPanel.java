@@ -4,14 +4,8 @@
  * and open the template in the editor.
  */
 
-package I3.UI;
+package i3.UI;
 
-import I3.Classes.Order;
-import I3.DatabaseOperation.BookingDb;
-import I3.DatabaseOperation.DatabaseOperation;
-import I3.DatabaseOperation.FoodDb;
-import I3.DatabaseOperation.ItemDb;
-import I3.DatabaseOperation.OrderDb;
 import java.awt.Color;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
@@ -24,6 +18,14 @@ import javax.swing.JOptionPane;
 import javax.swing.text.JTextComponent;
 import net.proteanit.sql.DbUtils;
 import org.jdesktop.swingx.autocomplete.AutoCompleteDecorator;
+
+import i3.UI.OrderPanel;
+import i3.DatabaseOperation.BookingDb;
+import i3.DatabaseOperation.DatabaseOperation;
+import i3.DatabaseOperation.FoodDb;
+import i3.DatabaseOperation.ItemDb;
+import i3.DatabaseOperation.OrderDb;
+import i3.classes.Order;
 
 /**
  *

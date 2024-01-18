@@ -3,12 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package I3.UI;
+package i3.UI;
 
-import I3.DatabaseOperation.DatabaseOperation;
-import I3.Classes.Room;
-import I3.Classes.RoomFare;
-import I3.DatabaseOperation.RoomDb;
 import java.awt.Color;
 import java.awt.event.KeyEvent;
 import java.sql.ResultSet;
@@ -18,6 +14,12 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
+
+import i3.UI.RoomPanel;
+import i3.DatabaseOperation.DatabaseOperation;
+import i3.DatabaseOperation.RoomDb;
+import i3.classes.Room;
+import i3.classes.RoomFare;
 import net.proteanit.sql.DbUtils;
 
 /**

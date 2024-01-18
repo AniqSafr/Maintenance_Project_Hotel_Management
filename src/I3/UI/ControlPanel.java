@@ -3,14 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package I3.UI;
-
-import I3.DatabaseOperation.BookingDb;
-import I3.DatabaseOperation.CustomerDb;
-import I3.DatabaseOperation.DatabaseOperation;
-import I3.TableModel.CustomCellRenderer;
-import I3.classes.Booking;
-import I3.classes.UserInfo;
+package i3.UI;
 
 import java.awt.Color;
 import java.awt.event.KeyAdapter;
@@ -33,6 +26,20 @@ import javax.swing.UIManager;
 import javax.swing.text.JTextComponent;
 import net.proteanit.sql.DbUtils;
 import org.jdesktop.swingx.autocomplete.AutoCompleteDecorator;
+
+import i3.UI.ControlPanel;
+import i3.UI.CustomerPanel;
+import i3.UI.FoodPanel;
+import i3.UI.ItemPanel;
+import i3.UI.OrderPanel;
+import i3.UI.PaymentPanel;
+import i3.UI.RoomPanel;
+import i3.DatabaseOperation.BookingDb;
+import i3.DatabaseOperation.CustomerDb;
+import i3.DatabaseOperation.DatabaseOperation;
+import i3.TableModel.CustomCellRenderer;
+import i3.classes.Booking;
+import i3.classes.UserInfo;
 
 /**
  *
