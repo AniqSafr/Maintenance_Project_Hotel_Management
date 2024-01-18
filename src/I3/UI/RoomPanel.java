@@ -560,15 +560,6 @@ public class RoomPanel extends javax.swing.JDialog {
         
     }
     
-    private void clearRoomTypePanel()
-    {
-        roomType = new RoomFare();
-        tf_roomType.setText("");
-        tf_price.setText("");
-        btn_addRoomType.setEnabled(true);
-        btn_editRoomType.setEnabled(false);
-        btn_deleteRoomType.setEnabled(false);
-    }
     
     private void displayToRoomTextField(int row)
     {
