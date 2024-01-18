@@ -5,13 +5,14 @@
  */
 package I3.DatabaseOperation;
 
-import I3.Classes.Room;
-import I3.Classes.RoomFare;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
+
+import I3.classes.Room;
+import I3.classes.RoomFare;
 
 /**
  *

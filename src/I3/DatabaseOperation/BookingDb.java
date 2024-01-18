@@ -1,12 +1,13 @@
 package I3.DatabaseOperation;
 
-import I3.Classes.Booking;
-import I3.Classes.Order;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
+
+import I3.classes.Booking;
+import I3.classes.Order;
 
 public class BookingDb {
 

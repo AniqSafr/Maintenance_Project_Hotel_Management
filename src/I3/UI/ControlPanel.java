@@ -5,12 +5,13 @@
  */
 package I3.UI;
 
-import I3.Classes.Booking;
-import I3.Classes.UserInfo;
 import I3.DatabaseOperation.BookingDb;
 import I3.DatabaseOperation.CustomerDb;
 import I3.DatabaseOperation.DatabaseOperation;
 import I3.TableModel.CustomCellRenderer;
+import I3.classes.Booking;
+import I3.classes.UserInfo;
+
 import java.awt.Color;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
