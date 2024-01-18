@@ -79,7 +79,7 @@ public class ControlPanel extends javax.swing.JFrame {
         result = bookingdb.getBookingInformation();
         //bookingdb.flushAll();
         //table_booking.setModel(DbUtils.resultSetToTableModel(result));
-        CustomCellRenderer customRenderer = new CustomCellRenderer();
+        
         //table_booking.setDefaultRenderer(Object.class, customRenderer);
         bookingdb.flushAll();
     }
