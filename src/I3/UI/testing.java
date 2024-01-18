@@ -23,7 +23,8 @@ public class testing extends javax.swing.JFrame {
     /**
      * Creates new form testing
      */
-    Date first,last;
+    Date first;
+    Date last;
     public testing() {
         initComponents();
         first = new Date();
