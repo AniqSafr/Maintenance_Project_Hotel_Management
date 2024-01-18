@@ -21,7 +21,7 @@ import i3.DatabaseOperation.RoomDb;
 public class BookingTableModel extends AbstractTableModel {
 
     private String[] columnNames;
-    private Date date;
+    private Date localDate;
     private Object[][] data;
 
     public BookingTableModel(long start ,long end) {
@@ -34,17 +34,17 @@ public class BookingTableModel extends AbstractTableModel {
 
     public void iniColNames() {
 
-        date = new Date();
+        localDate = new Date();
         SimpleDateFormat ft = new SimpleDateFormat("d");
         // -1 , because date starts with 0
-        int today = ( Integer.parseInt(ft.format(date))-1 )%getMonthLimit(date);
+        int today = ( Integer.parseInt(ft.format(localDate))-1 )%getMonthLimit(localDate);
         //System.out.println(today+", today");
         columnNames = new String[11];
         columnNames[0] = "#";
         for(int i =1;i<11;i++)
         {
             
-            today = today%getMonthLimit(date);
+            today = today%getMonthLimit(localDate);
             today ++;
           //  System.out.println(today+" , loop today");
             columnNames[i] = today+"";
