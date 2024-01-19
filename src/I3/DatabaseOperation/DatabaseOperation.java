@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 import i3.classes.Food;
 import i3.classes.Item;
 import i3.classes.Room;
-import i3.classes.RoomFare;
+
 import i3.classes.UserInfo;
 
 /**
