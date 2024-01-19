@@ -1,7 +1,5 @@
 package i3.classes;
 
-import i3.classes.Item;
-
 /**
  *
  * @author Faysal Ahmed
