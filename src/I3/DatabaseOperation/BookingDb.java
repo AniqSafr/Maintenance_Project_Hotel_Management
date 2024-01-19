@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
-import i3.DatabaseOperation.DataBaseConnection;
+
 import i3.classes.Booking;
 import i3.classes.Order;
 
